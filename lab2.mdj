@@ -4009,6 +4009,101 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAF4WrDPElOmmPc="
 							}
+						},
+						{
+							"_type": "UMLUseCaseSubjectView",
+							"_id": "AAAAAAF4p5wHpxrMKjQ=",
+							"_parent": {
+								"$ref": "AAAAAAF4FZ/hCsn3+kE="
+							},
+							"model": {
+								"$ref": "AAAAAAF4p5wHnxrKNjg="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF4p5wHqhrNdEU=",
+									"_parent": {
+										"$ref": "AAAAAAF4p5wHpxrMKjQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF4p5wHnxrKNjg="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF4p5wHqhrOlK0=",
+											"_parent": {
+												"$ref": "AAAAAAF4p5wHqhrNdEU="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF4p5wHqhrPtVM=",
+											"_parent": {
+												"$ref": "AAAAAAF4p5wHqhrNdEU="
+											},
+											"font": "Arial;13;1",
+											"left": 45,
+											"top": 135,
+											"width": 957.10986328125,
+											"height": 13,
+											"text": "Biblioteca"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF4p5wHqxrQp9w=",
+											"_parent": {
+												"$ref": "AAAAAAF4p5wHqhrNdEU="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF4p5wHqxrRDXo=",
+											"_parent": {
+												"$ref": "AAAAAAF4p5wHqhrNdEU="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 40,
+									"top": 128,
+									"width": 967.10986328125,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF4p5wHqhrOlK0="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF4p5wHqhrPtVM="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF4p5wHqxrQp9w="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF4p5wHqxrRDXo="
+									}
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 40,
+							"top": 128,
+							"width": 967.10986328125,
+							"height": 785,
+							"nameCompartment": {
+								"$ref": "AAAAAAF4p5wHqhrNdEU="
+							}
 						}
 					]
 				},
@@ -6922,6 +7017,14 @@
 							"name": "Indisponibila"
 						}
 					]
+				},
+				{
+					"_type": "UMLUseCaseSubject",
+					"_id": "AAAAAAF4p5wHnxrKNjg=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Biblioteca"
 				}
 			]
 		},
